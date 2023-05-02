@@ -1079,18 +1079,18 @@ var template2 = ({ actions }) => html`
             <slot target="content" ctx="app-home">
                 <ul class="wrap-logo-ctx section-amount">
                   <li>
-                    <a href="https://user-images.githubusercontent.com/94268593/235769561-52d3057c-9d85-4c25-8083-5a3f36128633.png" target="_blank">
-                      <${tt} src="/assets/images/logo-npm.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="IARES no NPM"/>
+                    <a href="https://www.npmjs.com/package/iares" target="_blank">
+                      <${tt} src="https://user-images.githubusercontent.com/94268593/235769561-52d3057c-9d85-4c25-8083-5a3f36128633.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="IARES no NPM"/>
                     </a>
                   </li>
                   <li>
-                    <a href="https://user-images.githubusercontent.com/94268593/235769538-a14ea12b-4615-42c0-8a43-806f46e501b5.png" target="_blank">
-                      <${tt} src="/assets/images/logo-iares.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="IARES no Github"/>
+                    <a href="https://github.com/to-codando/iares-ui" target="_blank">
+                      <${tt} src="https://user-images.githubusercontent.com/94268593/235769538-a14ea12b-4615-42c0-8a43-806f46e501b5.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="IARES no Github"/>
                     </a>
                   </li>
                   <li>
-                    <a href="https://user-images.githubusercontent.com/94268593/235769542-ef462a30-e10d-4d09-aebd-36efad24ea0b.png" target="_blank">
-                      <${tt} src="/assets/images/logo-iares-ui.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="IARES UI biblioteca de componentes"/>
+                    <a href="https://to-codando.github.io/fam-code-ui/" target="_blank">
+                      <${tt} src="https://user-images.githubusercontent.com/94268593/235769542-ef462a30-e10d-4d09-aebd-36efad24ea0b.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="IARES UI biblioteca de componentes"/>
                     </a>
                   </li>
                 </ul>
