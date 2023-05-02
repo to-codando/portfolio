@@ -76,46 +76,32 @@ const template = ({ actions }) => html`
             <slot target="content" ctx="app-home">
                 <ul class="wrap-logo-ctx">
                   <li>
-                    <a href="#/angular" target="_blank">
-                      <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769558-5019eb94-17b8-4c20-b074-b094c6974658.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Node JS"/>
-                      <span>Node JS</span>
-                    </a>
+                    <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769558-5019eb94-17b8-4c20-b074-b094c6974658.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Node JS"/>
+                    <span>Node JS</span>
                   </li>
                   <li>
-                    <a href="#/angular" target="_blank">
-                      <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769555-19d579b2-03e2-42d7-845b-7633d9074732.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Next"/>
-                      <span>Next JS</span>
-                    </a>
+                    <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769555-19d579b2-03e2-42d7-845b-7633d9074732.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Next"/>
+                    <span>Next JS</span>
                   </li>
                   <li>
-                    <a href="#/angular" target="_blank">
-                      <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769609-db83daf3-1cdd-4e92-922b-a52d1225582b.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Tailwind"/>
-                      <span>Tailwind CSS</span>
-                    </a>
+                    <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769609-db83daf3-1cdd-4e92-922b-a52d1225582b.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Tailwind"/>
+                    <span>Tailwind CSS</span>
                   </li>
                   <li>
-                    <a href="#/angular" target="_blank">
-                      <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769593-42f4abcc-87eb-42b1-8020-e66ae7a930b6.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="React"/>
-                      <span>React</span>
-                    </a>
+                    <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769593-42f4abcc-87eb-42b1-8020-e66ae7a930b6.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="React"/>
+                    <span>React</span>
                   </li>
                   <li>
-                    <a href="#/angular" target="_blank">
-                      <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769518-bf383d33-048e-4558-802a-2e494951e659.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Angular"/>
-                      <span>Angular</span>
-                    </a>
+                    <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769518-bf383d33-048e-4558-802a-2e494951e659.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Angular"/>
+                    <span>Angular</span>
                   </li>
                   <li>
-                    <a href="#/angular" target="_blank">
-                      <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769611-54917257-0d97-4221-80b7-8e836cb564c0.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Vue"/>
-                      <span>Vue</span>
-                    </a>
+                    <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769611-54917257-0d97-4221-80b7-8e836cb564c0.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Vue"/>
+                    <span>Vue</span>
                   </li>
                   <li>
-                    <a href="#/angular" target="_blank">
-                      <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769528-7d9d4a65-22a4-4dae-b5d2-91ca3fa98065.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Capacitor Framework"/>
-                      <span>Capacitor</span>
-                    </a>
+                    <${FamImage} src="https://user-images.githubusercontent.com/94268593/235769528-7d9d4a65-22a4-4dae-b5d2-91ca3fa98065.png" fallbackSrc="https://user-images.githubusercontent.com/94268593/235769510-b205a491-7e75-4aac-a1fd-06ae855bae76.png" alt="Capacitor Framework"/>
+                    <span>Capacitor</span>
                   </li>
                 </ul>
             </slot>
