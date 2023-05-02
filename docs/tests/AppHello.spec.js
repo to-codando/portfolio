@@ -2715,7 +2715,7 @@ var template2 = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${H}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${G}
                           name="mode_comment"
                           size="1"
@@ -2804,7 +2804,7 @@ var template2 = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${H}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${G}
                           name="mode_comment"
                           size="1"
@@ -2868,7 +2868,7 @@ var template2 = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${H}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${G}
                           name="mode_comment"
                           size="1"
@@ -2947,7 +2947,7 @@ var template2 = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${H}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${G}
                           name="mode_comment"
                           size="1"
@@ -3020,7 +3020,7 @@ var template2 = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${H}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${G}
                           name="mode_comment"
                           size="1"
@@ -3046,6 +3046,10 @@ var AppHome = () => {
       console.log(video);
       video.classList.remove("hide-video");
       video.classList.add("show-video");
+    },
+    openWhatsApp() {
+      const whatsappAddress = "https://api.whatsapp.com/send?phone=+5511936187844&text=Ol\xE1 Rodrigo! Acabei de ver seu portf\xF3lio em github.io/to-condando/portfolio e gostaria de falar sobre um projeto que preciso construir.";
+      window.open(whatsappAddress, "_blank");
     }
   };
   return {

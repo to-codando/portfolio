@@ -36,7 +36,7 @@ const template = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${FamButton}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${FamIcon}
                           name="mode_comment"
                           size="1"
@@ -125,7 +125,7 @@ const template = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${FamButton}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${FamIcon}
                           name="mode_comment"
                           size="1"
@@ -189,7 +189,7 @@ const template = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${FamButton}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${FamIcon}
                           name="mode_comment"
                           size="1"
@@ -268,7 +268,7 @@ const template = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${FamButton}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${FamIcon}
                           name="mode_comment"
                           size="1"
@@ -341,7 +341,7 @@ const template = ({ actions }) => html`
               <div class="wrap-button-ctx">
                 <${FamButton}>
                   <slot target="content" ctx="app-home">
-                    <div type="primary-hole" class="wrap-button-content-ctx">
+                    <div type="primary-hole" class="wrap-button-content-ctx" onClick=${actions.openWhatsApp}>
                       <${FamIcon}
                           name="mode_comment"
                           size="1"
@@ -367,6 +367,11 @@ export const AppHome = () => {
       console.log(video);
       video.classList.remove("hide-video");
       video.classList.add("show-video");
+    },
+    openWhatsApp() {
+      const whatsappAddress =
+        "https://api.whatsapp.com/send?phone=+5511936187844&text=Olá Rodrigo! Acabei de ver seu portfólio em github.io/to-condando/portfolio e gostaria de falar sobre um projeto que preciso construir.";
+      window.open(whatsappAddress, "_blank");
     },
   };
   return {
