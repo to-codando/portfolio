@@ -1,0 +1,15 @@
+@import url("./var.css");
+@import url("./reset.css");
+@import url("./grid.css");
+@import url("./global.css");
+
+body,
+h1,
+h2,
+h3,
+p,
+span,
+i,
+input {
+  font-family: "Barlow", sans-serif;
+}
